@@ -20,6 +20,8 @@ pod 'Logger', :git => 'https://github.com/jonasvogel/logger.git'
 There are two different logging levels: `.debug` and `.error`. The logger provides two very short helper functions to access the corresponding logging functions and can also be called with some data to provide more context:
 
 ```
+import Logger
+
 Logger.d("This is a debug statement.")
 Logger.e("An error occurred.", data: ["error": 404])
 ```
