@@ -1,16 +1,23 @@
 # Logger
 
-A very simple, but extensible Logger for Swift projects.
+A very simple, but extensible logger for Swift projects.
 
 ## Installation
 
 ### Swift Package Manager
 
-- Just add this repository's URL to your project by selecting _File / Swift Packages / Add Package Dependency_ in Xcode.
+- Just select _File / Swift Packages / Add Package Dependency_ in Xcode and add `https://github.com/jonasvogel/logger.git` to your project.
+
+### CocoaPods
+
+Add the following line to your `Podfile`:
+```
+pod 'Logger', :git => 'https://github.com/jonasvogel/logger.git'
+```
 
 ## Usage
 
-There are two different logging levels: `.debug` and `.error`. The logger provides to very short helper functions to access the corresponding logging functions and can also be provided with some data to provide some context:
+There are two different logging levels: `.debug` and `.error`. The logger provides two very short helper functions to access the corresponding logging functions and can also be called with some data to provide more context:
 
 ```
 Logger.d("This is a debug statement.")
