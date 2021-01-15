@@ -2,6 +2,8 @@
 
 A very simple, but extensible logger for Swift projects.
 
+Version `1.0.0`. [Changelog](./changelogs/CHANGELOG.md)
+
 ## Installation
 
 ### Swift Package Manager

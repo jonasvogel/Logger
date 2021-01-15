@@ -7,7 +7,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Logger'
-  s.version          = '0.0.1'
+  s.version          = '1.0.0'
   s.summary          = 'A very simple, but extensible logger for Swift projects.'
 
 # This description is used to generate tags and improve search results.
